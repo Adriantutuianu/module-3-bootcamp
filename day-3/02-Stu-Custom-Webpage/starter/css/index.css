@@ -1,9 +1,14 @@
 /* Text */
-h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Anton", sans-serif;
 }
 p {
-  font-family: 'Jura', sans-serif;
+  font-family: "Jura", sans-serif;
 }
 
 /* Navigation bar */
@@ -35,10 +40,11 @@ p {
   background-color: transparent !important;
   background-size: cover;
 }
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background: black;
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black;
 }
 
 /* Navigation links */
@@ -86,6 +92,31 @@ p {
   padding: 0px 30px 30px 30px;
 }
 
+.cardContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+}
+
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sideAccent {
+  background: #007bff;
+  width: 15px;
+}
+
+.imageContainer {
+  padding: 50px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
 footer {
   position: absolute;
   width: 100%;
@@ -93,11 +124,4 @@ footer {
   line-height: 60px;
   background-color: #f5f5f5;
   margin-top: 50px;
-}
-.cardContainer {
-  margin-top: 20px;
-  text-align: center;
-}
-.card {
-  margin: 0 auto;
 }
