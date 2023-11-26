@@ -73,6 +73,19 @@ p {
 .dropdown-menu {
   left: -97px;
 }
+
+.content {
+  padding: 50px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.showsNear {
+  padding: 0px 30px 30px 30px;
+}
+
 footer {
   position: absolute;
   width: 100%;
@@ -83,6 +96,7 @@ footer {
 }
 .cardContainer {
   margin-top: 20px;
+  text-align: center;
 }
 .card {
   margin: 0 auto;
